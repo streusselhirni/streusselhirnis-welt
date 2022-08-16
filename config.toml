@@ -1,0 +1,37 @@
+baseURL = 'http://example.org/'
+languageCode = 'de-de'
+title = 'Streusselhirnis Welt'
+theme = 'PaperMod'
+defaultContentLanguage = 'de'
+
+[Params]
+ShowReadingTime = true
+ShowShareButtons = true
+ShowCodeCopyButtons = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[languages.de]
+languageName = "Deutsch"
+weight = 1
+
+[languages.de.taxonomies]
+category = "Kategorien"
+tag = "Tags"
+series = "Serien"
+
+[[languages.de.menu.main]]
+name = "Archiv"
+url = "archiv"
+weight = 5
+
+[[languages.de.menu.main]]
+name = "Suche"
+url = "suche"
+weight = 10
+
+[[languages.de.menu.main]]
+name = "Über"
+url = "/info/ueber-mich/"
+weight = 10
