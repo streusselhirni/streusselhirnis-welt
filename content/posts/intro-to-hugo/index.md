@@ -1,7 +1,7 @@
 ---
 title: "Zurück aus der Versenkung / Meet Hugo"
 date: 2022-08-17T18:42:00+02:00
-draft: true
+draft: false
 cover:
    image: "hugo-logo.svg"
 ---
