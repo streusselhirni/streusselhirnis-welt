@@ -1,8 +1,10 @@
 baseURL = 'http://example.org/'
-languageCode = 'de-de'
-title = 'Streusselhirnis Welt'
-theme = 'PaperMod'
 defaultContentLanguage = 'de'
+languageCode = 'de-DE'
+title = 'Streusselhirnis Welt'
+summaryLength = 20
+
+theme = 'PaperMod'
 
 [Params]
 ShowReadingTime = true
