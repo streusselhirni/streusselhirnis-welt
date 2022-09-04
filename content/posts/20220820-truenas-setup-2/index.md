@@ -26,3 +26,4 @@ Anschließend wird der Share erstellt.
 Da Mac ebenfalls SMB kann, belasse ich es für den Anfang bei einem SMB-Share.
 
 Danach SSH im TrueNAS->Services aktivieren, per SSH auf die QNAP verbinden und mit `rsync -rvzh /share/MD0_DATA/Multimedia root@192.168.178.11:/mnt/box/media` den sync starten.
+Damit der Rsync Task weiterläuft, auch wenn die SSH-Verbindung beendet wird, ab besten in einer `screen` Instanz laufen lassen.
